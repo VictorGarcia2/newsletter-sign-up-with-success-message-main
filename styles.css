@@ -141,7 +141,6 @@ label {
     body {
         background-color: hsl(234, 29%, 20%) !important;
     }
-
     .row {
         display: flex;
         justify-content: center !important;
@@ -157,20 +156,16 @@ label {
         -o-border-radius: 20px;
         margin-top: 15% !important;
     }
-
-
     h1 {
         font-family: Roboto, !important;
         font-weight: 700 !important;
         font-size: 2rem !important;
     }
-
     p {
         font-family: Roboto-Regular, !important;
         font-size: .8rem;
         font-weight: 400;
     }
-
     ul {
         align-content: center !important;
         font-family: Roboto-Regular !important;
@@ -179,23 +174,17 @@ label {
         list-style-position: outside;
         padding-left: 0%;
     }
-
     ul li {
         background-image: url('./assets/images/icon-list.svg');
         background-repeat: no-repeat;
         background-size: 10px 10px;
-        /* Ajusta el tamaño aquí */
         padding-left: 15px;
-        /* Espacio entre el ícono y el texto */
     }
-
     .input {
         width: 90% !important;
         height: 40px;
-        font-size: 1rem;
-        
+        font-size: 1rem;   
     }
-
     .btn {
         background-color: hsl(234, 29%, 20%) !important;
         width: 90%;
@@ -206,7 +195,6 @@ label {
         font-size: 0.7rem !important;
         font-weight: 700 !important;
     }
-
     .finish {
         width: 25% !important;
         margin-top: 0% !important;
@@ -223,17 +211,13 @@ label {
         right: 38%;
         display: none;
 }
-
     .dismiss {
         margin-left: 20%;
         margin-top: 10% !important;
         width: 60% !important;
-
     }
     .w-25 img{
         width: 50px !important;
         padding-bottom: 20px;
     }
-    
-
 }
