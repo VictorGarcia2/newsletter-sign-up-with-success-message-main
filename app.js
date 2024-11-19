@@ -24,12 +24,6 @@ submit.addEventListener('click', () => {
     finish.style.display = "block"
     card.style.display = "none"
     document.querySelector('#finish > p').innerHTML = `
-     <div class="w-25 ">
-          <img class="img-fluid" src="./assets/images/icon-success.svg" alt="">
-        </div>
-        <h2>
-          Thanks for subscribing!
-        </h2>
         <p>
           A confirmation email has been sent to <span class="fw-bold">${miInput.value}</span>
           Please open it and click the button inside to confirm your subscription.
