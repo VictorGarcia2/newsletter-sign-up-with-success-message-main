@@ -1,6 +1,6 @@
 const submit = document.querySelector('#submit')
 const dismiss = document.querySelector('#dismiss')
-const fin = document.querySelector('#finish')
+const finish = document.querySelector('#finish')
 const card = document.querySelector('#card')
 const miInput = document.querySelector('#input')
 const label = document.querySelector('label')
@@ -23,11 +23,12 @@ submit.addEventListener('click', () => {
     miInput.style = "background-color: #57ff76; border: 1px solid #57ff76;"
     finish.style.display = "block"
     card.style.display = "none"
-    document.querySelector('#finish > p').innerHTML = `
+    document.querySelector('#emailto').innerHTML = `
         <p>
           A confirmation email has been sent to <span class="fw-bold">${miInput.value}</span>
           Please open it and click the button inside to confirm your subscription.
         </p>
+        
        `
   } else {
     miInput.style = "background-color: #ff62573e; border: 1px solid #ff6257;"
