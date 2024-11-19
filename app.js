@@ -23,10 +23,18 @@ submit.addEventListener('click', () => {
     miInput.style = "background-color: #57ff76; border: 1px solid #57ff76;"
     finish.style.display = "block"
     card.style.display = "none"
-    document.querySelector('#finish').innerHTML = `<p>
+    document.querySelector('#finish').innerHTML = `
+     <div class="w-25 ">
+          <img class="img-fluid" src="./assets/images/icon-success.svg" alt="">
+        </div>
+        <h2>
+          Thanks for subscribing!
+        </h2>
+        <p>
           A confirmation email has been sent to <span class="fw-bold">${miInput.value}</span>
           Please open it and click the button inside to confirm your subscription.
-        </p>`
+        </p>
+        <input type="button" class="dismiss" id="dismiss" value="Dismiss message">`
   } else {
     miInput.style = "background-color: #ff62573e; border: 1px solid #ff6257;"
     label.textContent = "Valid email required"
