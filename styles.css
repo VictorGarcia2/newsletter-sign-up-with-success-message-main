@@ -5,12 +5,7 @@
     /* Locate the .ttf file within your directory*/
 }
 
-@font-face {
-    font-family: Roboto-Regular !important;
-    /* Name your font family */
-    src: url('assets/fonts/Roboto-Regular.ttf') !important;
-    /* Locate the .ttf file within your directory*/
-}
+
 
 h1 {
     font-family: Roboto, !important;
@@ -26,7 +21,8 @@ h2 {
 }
 
 p {
-    font-family: Roboto-Regular, !important;
+    font-family: "Roboto", sans-serif !important;
+    font-style: normal;
     font-size: 1.2rem;
     font-weight: 400;
     color: hsl(234, 29%, 20%) !important;
@@ -34,8 +30,8 @@ p {
 
 ul {
     align-content: center !important;
-    font-family: Roboto-Regular !important;
-    font-weight: 400 !important;
+    font-family: "Roboto" !important;
+    font-weight: 900 !important;
     font-size: 1.3rem !important;
     padding-left: 0px;
 }
@@ -98,7 +94,7 @@ label {
     height: 60px;
     margin-top: 30px;
     color: hsl(0, 0%, 100%) !important;
-    font-family: Roboto-Regular, !important;
+    font-family: "Roboto", !important;
     font-size: 1.2rem !important;
     font-weight: 700 !important;
 }
@@ -118,7 +114,7 @@ label {
     width: 100%;
     height: 60px;
     color: hsl(0, 0%, 100%) !important;
-    font-family: Roboto-Regular, !important;
+    font-family: "Roboto", !important;
     font-size: 1.2rem !important;
     font-weight: 700 !important;
     border-radius: 9px;
@@ -140,6 +136,7 @@ label {
     body {
         background-color: hsl(234, 29%, 20%) !important;
     }
+
     .row {
         display: flex;
         justify-content: center !important;
@@ -155,67 +152,77 @@ label {
         -o-border-radius: 20px;
         margin-top: 15% !important;
     }
+
     h1 {
         font-family: Roboto, !important;
         font-weight: 700 !important;
         font-size: 2rem !important;
     }
+
     p {
         font-family: Roboto-Regular, !important;
         font-size: .8rem;
         font-weight: 400;
     }
+
     ul {
         align-content: center !important;
-        font-family: Roboto-Regular !important;
+        font-family: "Roboto", sans-serif !important;
         font-weight: 400 !important;
         font-size: .8rem !important;
         list-style-position: outside;
         padding-left: 0%;
     }
+
     ul li {
         background-image: url('./assets/images/icon-list.svg');
         background-repeat: no-repeat;
         background-size: 10px 10px;
         padding-left: 15px;
     }
+
     .input {
         width: 90% !important;
         height: 40px;
-        font-size: 1rem;   
+        font-size: 1rem;
     }
+
     .btn {
         background-color: hsl(234, 29%, 20%) !important;
         width: 90%;
         height: 40px !important;
         margin-top: 30px;
         color: hsl(0, 0%, 100%) !important;
-        font-family: Roboto-Regular, !important;
+        font-family: "Roboto", !important;
         font-size: 0.7rem !important;
         font-weight: 700 !important;
     }
+
     .finish {
         width: 25% !important;
         margin-top: 0% !important;
         background-color: white;
         position: fixed;
-        border-radius:10px ;
-        -webkit-border-radius:10px ;
-        -moz-border-radius:10px ;
-        -ms-border-radius:10px ;
-        -o-border-radius:10px ;
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
         padding-bottom: 30px;
         padding: 40px !important;
         top: 15%;
         right: 38%;
         display: none;
-}
+    }
+
     .dismiss {
+        font-family: "Roboto", !important;
         margin-left: 20%;
         margin-top: 10% !important;
         width: 60% !important;
     }
-    .w-25 img{
+
+    .w-25 img {
         width: 50px !important;
         padding-bottom: 20px;
     }
